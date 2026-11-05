@@ -1,0 +1,30 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run current Dart file",
+            "request": "launch",
+            "type": "dart",
+            "program": "${file}",
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "Exercise 2 (ex2.dart)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/ex2.dart"
+        },
+        {
+            "name": "Exercise 5 (ex5.dart)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/ex5.dart"
+        },
+        {
+            "name": "Main (main.dart)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main.dart"
+        }
+    ]
+}
